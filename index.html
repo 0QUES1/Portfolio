@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of QUES, a techie passionate about building amazing things.">
+  <meta name="keywords" content="portfolio, web development, techie, projects, QUES">
+  <meta name="author" content="QUES">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="Assets/FavIcon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Assets/FavIcon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Assets/FavIcon/favicon-16x16.png">
+<link rel="manifest" href="Assets/FavIcon/site.webmanifest">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Loading Animation -->
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Cursor Circle -->
+  <div class="cursor"></div>
+
+  <!-- Intro Section -->
+  <section id="intro" class="intro-section">
+    <div class="intro-content">
+      <h1>Hello, I'm QUES</h1>
+      <p>I'm A Techie Passionate About Building Amazing Things.</p>
+      <div class="easter-egg-message"></div>
+    </div>
+    <div class="dots-container"></div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <!-- Project Cards -->
+      <div class="project-card">
+        <img src="Assets/Images/Projets-images/project1" alt="Project 1" loading="lazy">
+        <h3>Project 1</h3>
+        <p>Description of Project 1.</p>
+        <a href="#" class="view-project">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Assets/Images/Projets-images/project1" alt="Project 2" loading="lazy">
+        <h3>Project 2</h3>
+        <p>Description of Project 2.</p>
+        <a href="#" class="view-project">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Assets/Images/Projets-images/project1" alt="Project 3" loading="lazy">
+        <h3>Project 3</h3>
+        <p>Description of Project 3.</p>
+        <a href="#" class="view-project">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Assets/Images/Projets-images/project1" alt="Project 4" loading="lazy">
+        <h3>Project 4</h3>
+        <p>Description of Project 4.</p>
+        <a href="#" class="view-project">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Assets/Images/Projets-images/project1" alt="Project 5" loading="lazy">
+        <h3>Project 5</h3>
+        <p>Description of Project 5.</p>
+        <a href="#" class="view-project">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Assets/Images/Projets-images/project1" alt="Project 6" loading="lazy">
+        <h3>Project 6</h3>
+        <p>Description of Project 6.</p>
+        <a href="#" class="view-project">View Project</a>
+      </div>
+    </div>
+    <div class="project-buttons">
+      <button class="more-projects">More Projects</button>
+      <button class="resume-btn">Download Resume</button>
+    </div>
+  </section>
+
+  <!-- Social Links Section -->
+  <section id="social" class="social-section">
+    <h2>Connect with Me</h2>
+    <div class="social-links">
+      <a href="https://github.com/0QUES1" target="_blank" class="social-card"><i data-lucide="github"></i>GitHub</a>
+      <a href="https://open.spotify.com/playlist/5LgZxsZy8bPYDp4lf5ugT6?si=SsCTF356SNS0i0g4Kk1xjA&pi=a-vsL5c_vLT9i9" target="_blank" class="social-card"><i data-lucide="audio-lines"></i>Spotify</a>
+      <a href="https://t.me/NotRealQues" target="_blank" class="social-card"><i data-lucide="send"></i>Telegram</a>
+      <a href="https://instagram.com/error.404.py" target="_blank" class="social-card"><i data-lucide="instagram"></i>Instagram</a>
+      <a href="https://www.threads.net/@ig_ques?invite=4" target="_blank" class="social-card"><i data-lucide="at-sign"></i>Threads</a>
+      <a href="https://discord.com/invite/mFMu6pWw" target="_blank" class="social-card"><i data-lucide="bot"></i>Discord</a>
+      <a href="mailto:q.business@outlook.in" target="_blank" class="social-card"><i data-lucide="mail"></i>Mail</a>
+      <div class="social-card youtube-card">
+        <i data-lucide="youtube"></i>YouTube
+        <div class="youtube-dropdown">
+          <a href="https://www.youtube.com/QuesPlayzYT" target="_blank" class="social-card">Main Channel</a>
+          <a href="https://www.youtube.com/QuesTechYT" target="_blank" class="social-card">Tech Channel</a>
+          <a href="https://www.youtube.com/QuesYT" target="_blank" class="social-card">Gaming Channel</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form id="contactForm" action="https://formspree.io/f/mnnpnnrk"
+  method="POST">
+      <input name="text" type="text" placeholder="Your Name" required>
+      <input name="email" type="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" id="sendButton">
+        <span>Send</span>
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-center">
+      <p>© 2025 QUES. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Tap-to-Top Button -->
+  <button class="scroll-to-top" id="scrollToTop">↑</button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  <script>
+    lucide.createIcons(); // Initialize Lucide Icons
+  </script>
+</body>
+</html>
