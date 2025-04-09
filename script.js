@@ -105,17 +105,17 @@ const hiddenProjects = [
   {
     title: 'Project 7',
     description: 'Description of Project 7.',
-    image: 'Images/Projets-images/project1',
+    image: 'Images/Projets-images/project7',
   },
   {
     title: 'Project 8',
     description: 'Description of Project 8.',
-    image: 'Images/Projets-images/project1',
+    image: 'Images/Projets-images/project8',
   },
   {
     title: 'Project 9',
     description: 'Description of Project 9.',
-    image: 'Images/Projets-images/project1',
+    image: 'Images/Projets-images/project9',
   },
 ];
 
